@@ -1,8 +1,8 @@
 package com.example.services;
 
-import com.example.dtos.CategoryDTO;
+import com.example.dtos.category.CategoryDTO;
 import com.example.dtos.FakeStoreProductDTO;
-import com.example.dtos.ProductDTO;
+import com.example.dtos.product.ProductDTO;
 
 import java.io.IOException;
 import java.util.List;

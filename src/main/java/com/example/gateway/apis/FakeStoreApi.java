@@ -1,10 +1,8 @@
 package com.example.gateway.apis;
 
 import com.example.dtos.FakeStoreProductDTO;
-import com.example.dtos.ProductDTO;
 import com.example.dtos.FakeStoreCategoryResponseDto;
 import org.springframework.stereotype.Component;
-import org.springframework.web.bind.annotation.RequestParam;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Path;

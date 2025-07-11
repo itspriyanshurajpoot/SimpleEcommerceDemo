@@ -1,5 +1,6 @@
 package com.example.dtos;
 
+import com.example.dtos.product.ProductDTO;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,9 +1,9 @@
 package com.example.gateway;
 
-import com.example.dtos.CategoryDTO;
+import com.example.dtos.category.CategoryDTO;
 import com.example.dtos.FakeStoreCategoryResponseDto;
 import com.example.dtos.FakeStoreProductDTO;
-import com.example.dtos.ProductDTO;
+import com.example.dtos.product.ProductDTO;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;

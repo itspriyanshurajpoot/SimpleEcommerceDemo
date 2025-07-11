@@ -1,9 +1,10 @@
-package com.example.services;
+package com.example.services.impl;
 
-import com.example.dtos.CategoryDTO;
+import com.example.dtos.category.CategoryDTO;
 import com.example.dtos.FakeStoreProductDTO;
-import com.example.dtos.ProductDTO;
+import com.example.dtos.product.ProductDTO;
 import com.example.gateway.IFakeApiGateway;
+import com.example.services.FakeStoreService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -12,7 +13,7 @@ import java.util.List;
 
 @Service
 @AllArgsConstructor
-public class FakeStoreServiceImpl implements FakeStoreService{
+public class FakeStoreServiceImpl implements FakeStoreService {
 
     private final IFakeApiGateway fakeApiGateway;
 

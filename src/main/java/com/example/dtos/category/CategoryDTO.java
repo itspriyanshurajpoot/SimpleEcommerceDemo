@@ -1,4 +1,4 @@
-package com.example.dtos;
+package com.example.dtos.category;
 
 
 import lombok.*;
@@ -9,5 +9,6 @@ import lombok.*;
 @AllArgsConstructor
 @Builder
 public class CategoryDTO {
+    private Long id;
     private String name;
 }
